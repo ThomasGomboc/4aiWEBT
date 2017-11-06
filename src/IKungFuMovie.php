@@ -4,5 +4,5 @@ namespace HTL3R\KungFuMovies;
 interface IKungFuMovie
 {
     public function getMovieInfoAsJSON() : string;
-    public function getMovieInfoAsHTML() : string;
+    public function getMovieQRCodeForBrowser() : string;
 }
