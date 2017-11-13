@@ -9,5 +9,14 @@
             "email": "tgomboc@gmx.at"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ThomasGomboc/4aiWEBT.git"
+        }
+    ],
+    "require": {
+        "HTL3R\KungFuMovies": "dev-master",
+        "typo3fluid/fluid": "^2.4"
+    }
 }

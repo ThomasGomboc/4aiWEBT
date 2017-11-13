@@ -19,4 +19,5 @@ class KungFuMovieSpezial extends AbstractKungFuMovie
         $this->hauptdarsteller = $hauptdarsteller;
     }
 
+
 }
