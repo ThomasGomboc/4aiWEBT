@@ -1,17 +1,13 @@
 {
-    "name": "htl3r/kung-fu-movies",
-    "description": "Provides an interface to set what a kung-fu-movie has to provide",
+    "name": "thomas/namespace",
+    "description": "Php Grundlagen",
     "type": "library",
+    "license": "gpl",
     "authors": [
         {
-            "name": "Florian Weiss",
-            "email": "github@weissheiten.at"
+            "name": "Thomas",
+            "email": "tgomboc@gmx.at"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "HTL3R\\KungFuMovies\\": "src/"
-        }
-    },
     "require": {}
 }
