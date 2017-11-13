@@ -47,4 +47,13 @@ abstract class AbstractKungFuMovie
         $this->rating = $rating;
         $this->movieURI = $movieURI;
     }
+
+    public function getMovieInfoAsJSON()
+    {
+        return json_encode($this->getName() , $this->getRating() , $this->getMovieURI());
+    }
+
+    public function getMovieQRCodeForBrowser(){
+
+    }
 }
