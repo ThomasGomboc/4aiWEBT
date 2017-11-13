@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "HTL3R\KungFuMovies": "dev-master",
+        "HTL3R\\KungFuMovies": "dev-master",
         "typo3fluid/fluid": "^2.4"
     }
 }
